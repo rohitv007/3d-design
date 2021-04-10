@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    background: #E6EEEC;
+    z-index: -1;
+}
+
+.test_row {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+@media screen and (min-width: 1200px){
+    .test_row {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.footer_section {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
