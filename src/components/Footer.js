@@ -7,14 +7,14 @@ function Footer() {
         <div className='footer'>
             <div className="footer_container">
                 <div className="footer_left">
-                    <p>2021 &copy; 3D Karigari</p>
+                    <p>2021 &copy; 3D&nbsp;Karigari</p>
                 </div>
                 <div className="footer_right">
                     <ul className='social_links'>
-                        <li><FiInstagram size="1.5em"/></li>
-                        <li><FiTwitter size="1.5em"/></li>
-                        <li><FiPhone size="1.5em"/></li>
-                        <li><FiMail size="1.5em"/></li>
+                        <li><FiInstagram fill='rgb(250, 57, 89, 0.8)' size="1.5em"/></li>
+                        <li><FiTwitter fill='#00aced' size="1.5em"/></li>
+                        <li><FiPhone fill='rgb(0, 200, 0)' size="1.5em"/></li>
+                        <li><FiMail fill='#4285F4' size="1.5em"/></li>
                     </ul>
                 </div>
             </div>
