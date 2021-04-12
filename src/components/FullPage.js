@@ -4,12 +4,11 @@ import About from './About';
 import Testimonials from './Testimonials';
 import ReactFullpage from '@fullpage/react-fullpage';
 import '../css/fullp.css'
+// import { Helmet } from 'react-helmet';
 
 const FullPage = () => (
-
     <ReactFullpage 
-
-        licenseKey = {'KEY'}
+        licenseKey = {'KEY'}                        // required
         navigation =  {true}
         navigationTooltips = {['Home', 'About', 'Testimonials']}
         autoScrolling = {true}    
@@ -19,6 +18,9 @@ const FullPage = () => (
         render={() => {
             return (
                 <div id='3d_app'>
+                    {/* <Helmet>
+                        <script src="./js/scrolling.js" type="text/javascript" />
+                    </Helmet> */}
                     <ReactFullpage.Wrapper>
                         <div className="section">
                             <div className='home_comp'>

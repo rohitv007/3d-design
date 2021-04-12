@@ -32,4 +32,19 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px){
+
+    .test {
+        height: 85vh;
+    }
+
+    .footer_section {
+        height: 15vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }

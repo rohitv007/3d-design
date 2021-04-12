@@ -1,12 +1,16 @@
 import React from 'react'
 import '../css/contactmodal.css'
 
+export const handleClose = () => {
+    document.getElementById('cmodal').style.visibility = 'hidden'
+};
+
+export const handleOpen = () => {
+    document.getElementById('cmodal').style.visibility = 'visible'
+};
+
+
 function ContactModal() {
-
-
-    const handleClose = () => {
-        document.getElementById('cmodal').style.visibility = 'hidden'
-    };
 
     const handleSub = (e) => {
         e.preventDefault();
@@ -50,9 +54,5 @@ function ContactModal() {
         </div>
     )
 }
-
-export const handleOpen = () => {
-    document.getElementById('cmodal').style.visibility = 'visible'
-};
 
 export default ContactModal
