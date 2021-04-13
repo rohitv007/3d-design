@@ -12,6 +12,7 @@ function About() {
             <img src={aboutimg} alt="pic" className="shadow rounded" />
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-6">
+            <h1>What is 3D</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -26,6 +27,8 @@ function About() {
             <img src={aboutimg} alt="pic" className="shadow rounded" />
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-6 order-sm-1 order-2">
+          <h1>What is 3DKarigari </h1>
+
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
