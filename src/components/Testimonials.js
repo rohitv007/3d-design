@@ -9,36 +9,37 @@ function Testimonials() {
     <div className="main_contain">
       <div className="test">
         <div className="test_container container">
-          <div className="row test_row mt-5 mb-5 mt-lg-0 mb-lg-0">
-            <div className="col-4 col-sm-4">
+      <h1 className="text-center" >Testimonials</h1>
+          <div className="row test_row">
+            <div className="col-4 col-sm-4 border">
               <img src={lexussvg} alt="PS" />
             </div>
-            <div className="col-4 col-sm-4">
+            <div className="col-4 col-sm-4 border">
               <img src={lexussvg} alt="PS" />
             </div>
-            <div className="col-4 col-sm-4">
-              <img src={lexussvg} alt="PS" />
-            </div>
-          </div>
-          <div className="row test_row mt-5 mb-5 mt-lg-0 mb-lg-0">
-            <div className="col-4 col-sm-4">
-              <img src={lexussvg} alt="PS" />
-            </div>
-            <div className="col-4 col-sm-4">
-              <img src={lexussvg} alt="PS" />
-            </div>
-            <div className="col-4 col-sm-4">
+            <div className="col-4 col-sm-4 border">
               <img src={lexussvg} alt="PS" />
             </div>
           </div>
-          <div className="row test_row mt-5 mb-5 mt-lg-0 mb-lg-0">
-            <div className="col-4 col-sm-4">
+          <div className="row test_row border">
+            <div className="col-4 col-sm-4 border">
               <img src={lexussvg} alt="PS" />
             </div>
-            <div className="col-4 col-sm-4">
+            <div className="col-4 col-sm-4 border">
               <img src={lexussvg} alt="PS" />
             </div>
-            <div className="col-4 col-sm-4">
+            <div className="col-4 col-sm-4 border">
+              <img src={lexussvg} alt="PS" />
+            </div>
+          </div>
+          <div className="row test_row border">
+            <div className="col-4 col-sm-4 border">
+              <img src={lexussvg} alt="PS" />
+            </div>
+            <div className="col-4 col-sm-4 border">
+              <img src={lexussvg} alt="PS" />
+            </div>
+            <div className="col-4 col-sm-4 border ">
               <img src={lexussvg} alt="PS" />
             </div>
           </div>

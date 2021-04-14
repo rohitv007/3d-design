@@ -17,7 +17,6 @@ function ContactModal({open, close}) {
             <div id='cmodal' className='contact_modal animate__animated' data-backdrop="static">
                 <div className="modal_header">
                     <h1>Contact Us</h1>
-                    {/* <span onClick={close}>&times;</span> */}
                     <div onClick={close} className='container closeBtn'>
                         <div className='line1'></div>
                         <div className='line2'></div>
