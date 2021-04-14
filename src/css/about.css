@@ -25,8 +25,13 @@ div.about_row {
     text-align: center;
     height: 45%;
     max-height: 45% !important;
+    padding-top: 5vh;
+}
+
+div.row1 {
     padding-top: 10vh;
 }
+
 .about_img {
     height: 100%;
 }
@@ -68,7 +73,7 @@ img {
         margin-top: 5vw;
     }
 
-    .row1 div p {
+    .about_row div.text-content {
         margin-top: 10vw;
     }
 
