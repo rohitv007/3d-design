@@ -11,3 +11,16 @@
   background: whitesmoke !important;
   box-shadow:0px 0px 5px rgb(129, 128, 128);
 }
+
+div.fp-slidesNav.fp-bottom {
+  /* margin-left: 1em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+div.fp-slidesNav.fp-bottom span {
+  background: whitesmoke !important;
+  box-shadow:0px 0px 5px rgb(129, 128, 128);
+}

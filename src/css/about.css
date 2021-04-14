@@ -18,15 +18,20 @@
     width: 100%;
 }
 
-.about_row {
+div.about_row {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     height: 45%;
-    max-height:45% !important;
+    max-height: 45% !important;
+    padding-top: 5vh;
+}
+
+div.row1 {
     padding-top: 10vh;
 }
+
 .about_img {
     height: 100%;
 }
@@ -62,3 +67,17 @@ img {
         font-size: smaller;
     }
 } */
+
+@media screen and (max-width: 576px){
+    .about_container {
+        margin-top: 5vw;
+    }
+
+    .about_row div.text-content {
+        margin-top: 10vw;
+    }
+
+    .about_container .row2{
+        display: none;
+    }
+}

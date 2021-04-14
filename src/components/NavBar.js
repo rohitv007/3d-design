@@ -1,8 +1,8 @@
 import React from 'react'
 import '../css/navbar.css'
-import { handleOpen } from './ContactModal'
+import 'animate.css';
 
-function NavBar() {
+function NavBar({navBtnOpen}) {
 
     return (
         <div className='navbar'>
@@ -11,10 +11,10 @@ function NavBar() {
                     <p>3D</p>
                 </div>
                 <ul className='nav-links'>
-                    <li className="navlink"><a href='/' className="shadow">Home</a></li>
-                    <li className="navlink"><a href='/' className="shadow">About</a></li>
-                    <li className="navlink"><a href='/' className="shadow">Testimonials</a></li>
-                    <li className="navlink"><button className="shadow" onClick={handleOpen}>Contact</button></li>
+                    <li className="navlink"><a href='/'>Home</a></li>
+                    <li className="navlink"><a href='/'>About</a></li>
+                    <li className="navlink"><a href='/'>Testimonials</a></li>
+                    <li className="navlink"><button onClick={navBtnOpen}>Contact</button></li>
                 </ul>
             </nav>
         </div>

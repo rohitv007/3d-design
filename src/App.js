@@ -1,20 +1,19 @@
-import React from 'react'
-// import { Helmet } from 'react-helmet';
+import React, { useState } from 'react'
 import './App.css';
 import ContactModal from './components/ContactModal';
 import FullPage from './components/FullPage';
 import NavBar from './components/NavBar';
 
+
 function App() {
+
+  const [showModal, setShowModal] = useState(false)
 
   return (
     <div className="App">
-      {/* <Helmet>
-        <script src="./js/scrolling.js" type="text/javascript" />
-      </Helmet> */}
-      <NavBar/>
+      <NavBar navBtnOpen={() => setShowModal(true)}/>
       <FullPage/>
-      <ContactModal/>
+      <ContactModal open={showModal} close={() => setShowModal(false)}/>
     </div>
   );
 }
