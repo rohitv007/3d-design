@@ -1,11 +1,11 @@
 import React from 'react'
 import '../css/home.css'
-import homevid from "../assets/home-vid.mp4"
+import homevid from "../assets/clock.mp4"
 
 function Home() {
     return (
         <div className='home'>
-            <div className="container">
+            {/* <div className="container"> */}
             <div className='home_video'>   
                 {/* <iframe 
                     width="100%" height="100%" 
@@ -16,11 +16,11 @@ function Home() {
                     allowFullScreen
                     scrolling="yes"
                 /> */}
-                <video data-keepplaying data-autoplay muted width='100%' height='100%' loop>
+                <video data-keepplaying data-autoplay muted width='100%' loop>
                     <source src={homevid} type="video/mp4"/>
                 </video>
             </div>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
