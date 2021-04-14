@@ -15,10 +15,10 @@ function Footer() {
                 </div>
                 <div className="footer_right col-12 col-sm-4">
                     <ul className='social_links'>
-                        <li><FiInstagram fill='rgb(250, 57, 89, 0.8)' size="1.3em"/></li>
-                        <li><FiTwitter fill='#00aced' size="1.3em"/></li>
-                        <li><FiPhone fill='rgb(0, 200, 0)' size="1.3em"/></li>
-                        <li><FiMail fill='#4285F4' size="1.3em"/></li>
+                        <li><FiInstagram fill='rgb(250, 57, 89, 0.8)' size="1.5em"/></li>
+                        <li><FiTwitter fill='#00aced' size="1.5em"/></li>
+                        <li><FiPhone fill='rgb(0, 200, 0)' size="1.5em"/></li>
+                        <li><FiMail fill='#4285F4' size="1.5em"/></li>
                     </ul>
                     {/* <select name="Social Links" id="mediaLinks" className="select_links">
                         <option value="instagram">Instagram</option>
