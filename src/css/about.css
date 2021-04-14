@@ -62,3 +62,17 @@ img {
         font-size: smaller;
     }
 } */
+
+@media screen and (max-width: 576px){
+    .about_container {
+        margin-top: 5vw;
+    }
+
+    .row1 div p {
+        margin-top: 10vw;
+    }
+
+    .about_container .row2{
+        display: none;
+    }
+}

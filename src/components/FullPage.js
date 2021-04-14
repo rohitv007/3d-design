@@ -13,26 +13,23 @@ const FullPage = () => (
         navigationTooltips = {['Home', 'About', 'Testimonials']}
         autoScrolling = {true}    
         scrollingSpeed = {1000}
-        anchors = {['s1', 's2', 's3']}
+        // anchors = {['s1', 's2', 's3']}
 
         render={() => {
             return (
                 <div id='3d_app'>
-                    {/* <Helmet>
-                        <script src="./js/scrolling.js" type="text/javascript" />
-                    </Helmet> */}
                     <ReactFullpage.Wrapper>
-                        <div className="section">
+                        <div className="section section1">
                             <div className='home_comp'>
                                 <Home/>
                             </div>
                         </div>
-                        <div className="section">
+                        <div className="section section2">
                             <div className='about_comp'>
                                 <About/>
                             </div>
                         </div>
-                        <div className="section">
+                        <div className="section section4">
                             <div className='test_comp'>
                                 <Testimonials/>
                             </div>
