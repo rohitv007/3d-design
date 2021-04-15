@@ -45,7 +45,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
-      <footer className="footer_section">
+      <footer className="footer_section ">
         <Footer />
       </footer>
     </div>

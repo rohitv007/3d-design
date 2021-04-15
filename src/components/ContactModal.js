@@ -13,7 +13,7 @@ function ContactModal({open, close}) {
     }
 
     return (
-        <Fade right>
+        <Fade top>
             <div id='cmodal' className='contact_modal animate__animated' data-backdrop="static">
                 <div className="modal_header">
                     <h1>Contact Us</h1>
