@@ -11,7 +11,7 @@ function Footer() {
                     <p>2021 &copy; 3D&nbsp;Karigari</p>
                 </div>
                 <div className="footer_mid col-6 col-sm-4">
-                    <img src={makeii} alt='#makeinindia'/>
+                    <img src={makeii} alt='#makeinindia'/>  
                 </div>
                 <div className="footer_right col-12 col-sm-4">
                     <ul className='social_links'>
