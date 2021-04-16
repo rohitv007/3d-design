@@ -46,7 +46,7 @@ div.footer_mid img {
 ul.social_links {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
     margin: 0;

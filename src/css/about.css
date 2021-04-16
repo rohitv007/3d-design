@@ -42,9 +42,9 @@ div.row1 {
 }
 
 @media screen and (max-width: 576px){
-    .about_container {
+    /* .about_container {
         margin-top: 5vw;
-    }
+    } */
 
     .about_row div.text-content {
         margin-top: 10vw;

@@ -1,5 +1,6 @@
 .home {
     display: grid;
+    place-content: center;
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -7,10 +8,13 @@
     z-index: -1;
 }
 
-.home_video {
+div.home_video {
     width: 100%;
     height: 100%;
-    margin-top: 10vh;
+}
+
+div.home_video video {
+    margin-top: 5vh;
 }
 
 .home.embed{overflow:auto !important}
