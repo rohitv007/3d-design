@@ -8,8 +8,8 @@
 }
 
 #fp-nav span {
-  background: whitesmoke !important;
-  box-shadow:0px 0px 5px rgb(129, 128, 128);
+  background: white !important;
+  box-shadow:0px 0px 5px #000;
 }
 
 div.fp-slidesNav.fp-bottom {
@@ -21,6 +21,7 @@ div.fp-slidesNav.fp-bottom {
 }
 
 div.fp-slidesNav.fp-bottom span {
-  background: whitesmoke !important;
-  box-shadow:0px 0px 5px rgb(129, 128, 128);
+  background: white !important;
+  box-shadow:0px 0px 5px #000;
 }
+

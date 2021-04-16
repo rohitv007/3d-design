@@ -32,6 +32,8 @@ nav {
 .navbar_header p {
     font-size: 2em;
     font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links {
@@ -63,7 +65,7 @@ ul li button {
     color: whitesmoke;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 576px){
     nav {
         font-size: 80%;
     }

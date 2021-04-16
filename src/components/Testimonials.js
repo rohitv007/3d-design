@@ -9,7 +9,7 @@ function Testimonials() {
     <div className="main_contain">
       <div className="test">
         <div className="test_container container">
-      <h1 className="text-center" >Testimonials</h1>
+            <h1 className="text-center">Testimonials</h1>
           <div className="row test_row">
             <div className="col-4 col-sm-4 border">
               <img src={lexussvg} alt="PS" />

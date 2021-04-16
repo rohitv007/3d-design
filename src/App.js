@@ -9,6 +9,9 @@ function App() {
 
   const [showModal, setShowModal] = useState(false)
 
+  // window.addEventListener('mousewheel', () => {
+  //   setShowModal(false)
+  // })
   return (
     <div className="App">
       <NavBar navBtnOpen={() => setShowModal(true)}/>

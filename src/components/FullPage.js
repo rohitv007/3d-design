@@ -4,20 +4,22 @@ import About from './About';
 import Testimonials from './Testimonials';
 import ReactFullpage from '@fullpage/react-fullpage';
 import '../css/fullp.css'
+import '../js/scrolling'
+
 
 const FullPage = () => (
 
-    // ImportScript(),
-
     <ReactFullpage 
-        licenseKey = {'KEY'}                        // required
+        licenseKey = {null}                       // required
         navigation =  {true}
         navigationTooltips = {['Home', 'About', 'Testimonials']}
         autoScrolling = {true}    
         scrollingSpeed = {1000}
         controlArrows = {false}
         slidesNavigation = {true}
-        // delay = {0}
+        scrollHorizontally = {true}
+        fitToSection = {true}
+        delay = {0}
         // anchors = {['s1', 's2', 's3']}
 
         render={() => {
