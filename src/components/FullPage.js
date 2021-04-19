@@ -8,7 +8,6 @@ import '../js/scrolling'
 import ScrollableContainer from "react-full-page-scroll";
 
 
-
 // const FullPage = () => (
 
 //     <ReactFullpage 
@@ -60,9 +59,9 @@ import ScrollableContainer from "react-full-page-scroll";
 function PageComponent({children}){
     return (<div>{children}</div>)
 }
-   
-   
+
 function FullPage() {
+
     return (
         <ScrollableContainer animationTime={500}>
             <PageComponent><Home/></PageComponent>

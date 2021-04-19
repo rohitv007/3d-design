@@ -1,20 +1,26 @@
 .home {
-    display: grid;
-    place-content: center;
-    height: 100vh;
     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    background: #121212;
+}
+
+#homeVid {
     z-index: -1;
 }
 
-div.home_video {
-    width: 100%;
-    height: 100%;
+/* @media (min-aspect-ratio: 16/9) {
+    #homeVid {
+        width: 100%;
+        height: auto;
+    }
 }
 
-div.home_video video {
-    margin-top: 5vh;
-}
-
-.home.embed{overflow:auto !important}
+@media (max-aspect-ratio: 16/9) {
+    #homeVid {
+        width: auto;
+        height: 100%;
+    }
+} */

@@ -28,10 +28,6 @@ div.about_row {
     padding-top: 5vh;
 }
 
-div.row1 {
-    padding-top: 10vh;
-}
-
 .about_img {
     height: 100%;
 }
@@ -48,9 +44,5 @@ div.row1 {
 
     .about_row div.text-content {
         margin-top: 10vw;
-    }
-
-    .about_container .row2{
-        display: none;
     }
 }

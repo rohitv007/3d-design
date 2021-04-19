@@ -1,26 +1,13 @@
 import React from 'react'
 import '../css/home.css'
-import homevid from "../assets/clock.mp4"
+import homevid from "../assets/home-vid.mp4"
 
 function Home() {
     return (
-        <div className='home'>
-            <div className="container">
-            <div className='home_video'>   
-                {/* <iframe 
-                    width="100%" height="100%" 
-                    src="https://www.youtube.com/embed/4fQeaM62mOY" 
-                    title="YouTube video player" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen
-                    scrolling="yes"
-                /> */}
-                <video loop keepPlaying autoPlay muted width='100%'>
-                    <source src={homevid} type="video/mp4"/>
-                </video>
-            </div>
-            </div>
+        <div className="home">
+            <video id="homeVid" keepplaying="true" loop autoPlay muted width='100%'>
+                <source src={homevid} type="video/mp4"/>
+            </video>
         </div>
     )
 }

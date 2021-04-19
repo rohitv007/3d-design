@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/navbar.css'
-import 'animate.css';
+import 'animate.css'
+import '../css/styles.css'
 
 function NavBar({ navBtnOpen }) {
 

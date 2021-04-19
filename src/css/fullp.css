@@ -7,3 +7,7 @@
 .radius{
     border-radius: 24px;
 }
+
+div.about-main .about2 {
+    visibility: hidden;
+}
