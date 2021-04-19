@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 function About2() {
     return (
-        <Carousel interval={5000} fade style={{display: 'grid', placeContent: 'center'}}>
+        <Carousel className='about2_slides' style={{width: '100%', height: 'auto'}} interval={3000} fade>
             <Carousel.Item>
                 <div className="slide-container container">
                     <div className="col-10 col-sm-6 col-md-6 col-lg-6 about_img">

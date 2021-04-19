@@ -63,7 +63,7 @@ function PageComponent({children}){
 function FullPage() {
 
     return (
-        <ScrollableContainer animationTime={500}>
+        <ScrollableContainer animationTime={1000}>
             <PageComponent><Home/></PageComponent>
             <PageComponent><About/></PageComponent>
             <PageComponent><Testimonials/></PageComponent>

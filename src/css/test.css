@@ -52,3 +52,7 @@
         height: 8vh;
     }
 }
+
+.test_slides a.carousel-control-next, .test_slides a.carousel-control-prev {
+    display: none;
+}

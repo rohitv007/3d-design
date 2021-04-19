@@ -11,16 +11,12 @@ span.sr-only {
 .slide-container {
     display: grid;
     place-content: center;
-}
-
-.slide-container {
     text-align: center;
 }
 
 .slide-container .about_img {
     height: 100%;
 }
-
 
 .slide-container .about_img img {
     max-width: 100%;
@@ -31,4 +27,9 @@ span.sr-only {
 
 .slide-container .text-content {
     margin-top: 5vh;
+}
+
+.about2_slides span.carousel-control-next-icon, .about2_slides span.carousel-control-prev-icon {
+    background-color: #000;
+    border-radius: 100%;
 }

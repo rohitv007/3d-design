@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/home.css'
-import homevid from "../assets/home-vid.mp4"
+import homevid from "../assets/clock.mp4"
 
 function Home() {
     return (
