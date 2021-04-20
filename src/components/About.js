@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import aboutimg from "../assets/design.jpg";
 import "../css/about.css";
 import About2 from "./About2";
@@ -14,8 +14,15 @@ function About() {
             setFlag(false)
     }
     
-    window.addEventListener('load', screenResize)
-    window.addEventListener('resize', screenResize)
+    useEffect(()=>{
+      window.addEventListener('load', screenResize)
+      window.addEventListener('resize', screenResize)
+
+      return () => {
+        window.removeEventListener('load', screenResize)
+        window.removeEventListener('resize', screenResize)
+      }
+    })
 
   return (
     <div className="about">

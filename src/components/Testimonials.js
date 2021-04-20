@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../css/test.css";
 import Footer from "./Footer";
 import Carousel from 'react-bootstrap/Carousel'
@@ -25,8 +25,15 @@ function Testimonials() {
           setFlag(false)
     }
     
-    window.addEventListener('load', screenResize)
-    window.addEventListener('resize', screenResize)
+    useEffect(()=>{
+      window.addEventListener('load', screenResize)
+      window.addEventListener('resize', screenResize)
+
+      return () => {
+        window.removeEventListener('load', screenResize)
+        window.removeEventListener('resize', screenResize)
+      }
+    })
 
   return (
     <>
