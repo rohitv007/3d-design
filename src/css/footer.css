@@ -53,10 +53,34 @@ ul.social_links {
     padding: 0;
 }
 
+.social_links svg {
+    color: #444;
+}
+
 ul li a {
     text-decoration: none;
-    color: black;
 }
+
+.social_links svg {
+    transition: all 0.25s ease-in-out;
+}
+
+.social_links li:nth-child(1) a:hover svg {
+    color: red;
+}
+
+.social_links li:nth-child(2) a:hover svg {
+    color: #00aced;
+}
+
+.social_links li:nth-child(3) a:hover svg {
+    color: green;
+}
+
+.social_links li:nth-child(4) a:hover svg {
+    color: darkcyan;
+}
+
 
 @media screen and (max-width: 576px){
     div.footer_mid img {

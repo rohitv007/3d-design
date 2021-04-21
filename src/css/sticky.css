@@ -15,19 +15,33 @@ ul.home_social {
     position: fixed;
     top: 35%;
     right: 0;
-    margin: 0;
     padding: 0;
 }
 
 .home_social li {
-    margin-right: 0;
     padding: 20px;
     width: 100%;
 }
 
 .home_social li a {
     margin: 0;
-    padding: 0;
     width: 100%;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
 }
-  
+
+.home_social li:nth-child(1) a:hover {
+    color: red;
+}
+
+.home_social li:nth-child(2) a:hover {
+    color: #00aced;
+}
+
+.home_social li:nth-child(3) a:hover {
+    color: green;
+}
+
+.home_social li:nth-child(4) a:hover {
+    color: darkcyan;
+}
