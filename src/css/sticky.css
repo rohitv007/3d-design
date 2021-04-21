@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul.home_social {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: auto;
+    background: #444;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 35%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.home_social li {
+    margin-right: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.home_social li a {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
