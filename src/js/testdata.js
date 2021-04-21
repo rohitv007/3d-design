@@ -1,12 +1,12 @@
-import netflix from '../assets/netflix.svg'
-import lexus from '../assets/lexus.svg'
-import ps from '../assets/playstation.svg'
-import warner from '../assets/warner.svg'
-import beats from '../assets/beats.svg'
-import adidas from '../assets/adidas.svg'
-import senn from '../assets/sennheiser.svg'
-import tag from '../assets/tag.svg'
-import taco from '../assets/taco-bell.svg';
+import netflix from '../assets/svg/netflix.svg'
+import lexus from '../assets/svg/lexus.svg'
+import ps from '../assets/svg/playstation.svg'
+import warner from '../assets/svg/warner.svg'
+import beats from '../assets/svg/beats.svg'
+import adidas from '../assets/svg/adidas.svg'
+import senn from '../assets/svg/sennheiser.svg'
+import tag from '../assets/svg/tag.svg'
+import taco from '../assets/svg/taco-bell.svg';
 
 export const testdata = [
     {id: 1, img: netflix},

@@ -3,15 +3,15 @@ import "../css/test.css";
 import Footer from "./Footer";
 import Carousel from 'react-bootstrap/Carousel'
 import { testdata } from "../js/testdata";
-import netflix from '../assets/netflix.svg'
-import lexus from '../assets/lexus.svg'
-import ps from '../assets/playstation.svg'
-import warner from '../assets/warner.svg'
-import beats from '../assets/beats.svg'
-import adidas from '../assets/adidas.svg'
-import senn from '../assets/sennheiser.svg'
-import tag from '../assets/tag.svg'
-import taco from '../assets/taco-bell.svg';
+import netflix from '../assets/svg/netflix.svg'
+import lexus from '../assets//svg/lexus.svg'
+import ps from '../assets//svg/playstation.svg'
+import warner from '../assets/svg/warner.svg'
+import beats from '../assets/svg/beats.svg'
+import adidas from '../assets/svg/adidas.svg'
+import senn from '../assets/svg/sennheiser.svg'
+import tag from '../assets/svg/tag.svg'
+import taco from '../assets/svg/taco-bell.svg';
 
 
 function Testimonials() {
@@ -44,35 +44,35 @@ function Testimonials() {
             <h1 className="text-center">Testimonials</h1>
             <div className="row test_row">
               <div className="col-sm-4 border">
-                <img src={netflix} alt="PS" />
+                <img src={netflix} alt="svg" />
               </div>
               <div className="col-sm-4 border">
-                <img src={ps} alt="PS" />
+                <img src={ps} alt="svg" />
               </div>
               <div className="col-sm-4 border">
-                <img src={lexus} alt="PS" />
-              </div>
-            </div>
-            <div className="row test_row border">
-              <div className="col-sm-4 border">
-                <img src={warner} alt="PS" />
-              </div>
-              <div className="col-sm-4 border">
-                <img src={beats} alt="PS" />
-              </div>
-              <div className="col-sm-4 border">
-                <img src={adidas} alt="PS" />
+                <img src={lexus} alt="svg" />
               </div>
             </div>
             <div className="row test_row border">
               <div className="col-sm-4 border">
-                <img src={senn} alt="PS" />
+                <img src={warner} alt="svg" />
               </div>
               <div className="col-sm-4 border">
-                <img src={tag} alt="PS" />
+                <img src={beats} alt="svg" />
               </div>
               <div className="col-sm-4 border">
-                <img src={taco} alt="PS" />
+                <img src={adidas} alt="svg" />
+              </div>
+            </div>
+            <div className="row test_row border">
+              <div className="col-sm-4 border">
+                <img src={senn} alt="svg" />
+              </div>
+              <div className="col-sm-4 border">
+                <img src={tag} alt="svg" />
+              </div>
+              <div className="col-sm-4 border">
+                <img src={taco} alt="svg" />
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ function Testimonials() {
             {
               testdata.map(({id, img}) => {
                 return (
-                  <Carousel.Item id={id} className='w-100'>
+                  <Carousel.Item key={id} className='w-100'>
                     <img
                       className='w-100'
                       src={img}

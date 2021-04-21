@@ -5,10 +5,14 @@
 }
 
 ul.home_social {
+    background: rgba( 0, 0, 0, 0.6 );
+    box-shadow: 0 0px 16px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border: 1px solid rgba( 0, 0, 0, 0.18 );
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: auto;
-    background: #444;
     display: block;
     justify-content: center;
     align-items: center;
@@ -19,7 +23,7 @@ ul.home_social {
 }
 
 .home_social li {
-    padding: 20px;
+    padding: 16px;
     width: 100%;
 }
 
@@ -28,20 +32,4 @@ ul.home_social {
     width: 100%;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
-}
-
-.home_social li:nth-child(1) a:hover {
-    color: red;
-}
-
-.home_social li:nth-child(2) a:hover {
-    color: #00aced;
-}
-
-.home_social li:nth-child(3) a:hover {
-    color: green;
-}
-
-.home_social li:nth-child(4) a:hover {
-    color: darkcyan;
 }
