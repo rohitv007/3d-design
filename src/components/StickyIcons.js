@@ -1,10 +1,10 @@
 import React from 'react'
 // import { FiInstagram, FiMail, FiPhone, FiTwitter } from 'react-icons/fi'
 import '../css/sticky.css'
-import insta from '../assets/174834-social-media-logos/png/029-instagram.png'
-import twitter from '../assets/174834-social-media-logos/png/008-twitter.png'
-import wapp from '../assets/174834-social-media-logos/png/005-whatsapp.png'
-import mail from '../assets/174834-social-media-logos/svg/050-mail.svg'
+import insta from '../assets/svg/029-instagram.svg'
+import twitter from '../assets/svg/008-twitter.svg'
+import wapp from '../assets/svg/005-whatsapp.svg'
+import mail from '../assets/svg/050-mail.svg'
 
 
 function StickyIcons() {

@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade';
 import '../css/contactmodal.css'
 
 
 function ContactModal({open, close}) {
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [mobile, setMobile] = useState('')
 
     if (!open) return null;
 
@@ -23,18 +27,18 @@ function ContactModal({open, close}) {
                     </div>
                 </div>
                 <div className="form_container container-fluid">
-                    <form onSubmit={handleSub}>
+                    <form className='form' onSubmit={handleSub}>
                         <div className="row form_row">
                             <label htmlFor='name'>Name</label>
-                            <input type="text" name='name' required/>
+                            <input onChange={(e) => setName(e.target.value)} value={name} type="text" name='name' required/>
                         </div>
                         <div className="row form_row">
                             <label htmlFor='email'>Email</label>
-                            <input type="text" name='email' required/>
+                            <input onChange={(e) => setEmail(e.target.value)} value={email} type="text" name='email' required/>
                         </div>
                         <div className="row form_row">
                             <label htmlFor='mobile'>Mobile</label>
-                            <input type="text" name='mobile' required/>
+                            <input onChange={(e) => setMobile(e.target.value)} value={mobile} type="text" name='mobile' required/>
                         </div>
                         <div className="row form_row">
                             <button type='submit'>Subscribe</button>
