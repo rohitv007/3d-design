@@ -1,12 +1,11 @@
 import React from 'react'
-import Home from './Home';
-import About from './About';
-import Testimonials from './Testimonials';
-// import ReactFullpage from '@fullpage/react-fullpage';
+import Home from './Home'
+import About from './About'
+import Testimonials from './Testimonials'
+// import ReactFullpage from '@fullpage/react-fullpage'
 import '../css/fullp.css'
 import '../js/scrolling'
-import ScrollableContainer from "react-full-page-scroll";
-
+import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
 
 // const FullPage = () => (
 
@@ -56,20 +55,20 @@ import ScrollableContainer from "react-full-page-scroll";
 //     />
 // )
 
-function PageComponent({children}){
-    return (<div>{children}</div>)
-}
-
 function FullPage() {
 
     return (
-        <ScrollableContainer animationTime={1000}>
-            <PageComponent><Home/></PageComponent>
-            <PageComponent><About/></PageComponent>
-            <PageComponent><Testimonials/></PageComponent>
-        </ScrollableContainer>
+        <Fullpage>
+            <FullPageSections>
+                <FullpageSection><Home/></FullpageSection>
+                <FullpageSection><About/></FullpageSection>
+                <FullpageSection><Testimonials/></FullpageSection>
+            </FullPageSections>
+        </Fullpage>
     );
 }   
+
+
 
 export default FullPage
 

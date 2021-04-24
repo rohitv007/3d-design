@@ -19,10 +19,10 @@ function Footer() {
                 </div>
                 <div className="footer_right col-12 col-sm-4">
                     <ul className='social_links'>
-                        <li><a target='blank' rel='noopener noreferrer' href='https://www.instagram.com/'><img src={insta} width='18px' height='18px' alt="svg"/></a></li>
-                        <li><a target='blank' rel='noopener noreferrer' href='https://twitter.com/'><img src={twitter} width='18px' height='18px' alt="svg"/></a></li>
-                        <li><a target='blank' rel='noopener noreferrer' href='https://api.whatsapp.com/send?phone=+91XXXX'><img src={wapp} width='18px' height='18px' alt="svg"/></a></li>
-                        <li><a target='blank' rel='noopener noreferrer' href="mailto:someone@example.com"><img src={mail} width='18px' height='18px' alt="svg"/></a></li>
+                        <li><a target='blank' rel='noopener noreferrer' href='https://www.instagram.com/'><img src={insta} width='16px' height='16px' alt="svg"/></a></li>
+                        <li><a target='blank' rel='noopener noreferrer' href='https://twitter.com/'><img src={twitter} width='16px' height='16px' alt="svg"/></a></li>
+                        <li><a target='blank' rel='noopener noreferrer' href='https://api.whatsapp.com/send?phone=+91XXXX'><img src={wapp} width='16px' height='16px' alt="svg"/></a></li>
+                        <li><a target='blank' rel='noopener noreferrer' href="mailto:someone@example.com"><img src={mail} width='16px' height='16px' alt="svg"/></a></li>
                     </ul>
                 </div>
             </div>
